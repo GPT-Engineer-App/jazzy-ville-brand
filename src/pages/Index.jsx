@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <Box>
       {/* Hero Section */}
-      <Box bgImage="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBqZXdlbHJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3MTI4NDc0MDN8MA&ixlib=rb-4.0.3&q=80&w=1080" bgSize="cover" bgPosition="center" h="100vh" display="flex" alignItems="center">
+      <Box bgImage="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwamV3ZWxyeXxlbnwwfHx8fDE2ODEyMzQ1Njd8MA&ixlib=rb-4.0.3&q=80&w=1080" bgSize="cover" bgPosition="center" h="100vh" display="flex" alignItems="center">
         <Container maxW="container.lg">
           <Heading as="h1" size="4xl" color="white" mb={4}>
             Discover the Elegance of Jazz Ville
@@ -50,14 +50,14 @@ const Index = () => {
       </Box>
 
       {/* About Section */}
-      <Box bg="gray.100" py={20}>
+      <Box bg="black" py={20}>
         <Container maxW="container.lg">
           <Flex alignItems="center">
             <Box flex={1} mr={10}>
               <Heading as="h2" size="2xl" mb={4}>
                 About Jazz Ville
               </Heading>
-              <Text fontSize="lg" mb={6}>
+              <Text fontSize="lg" mb={6} color="white">
                 Jazz Ville is a visionary jewelry brand that combines elegance, craftsmanship, and contemporary design. We believe in creating timeless pieces that reflect the unique style and personality of the wearer.
               </Text>
               <Button colorScheme="teal" size="lg">
@@ -71,7 +71,55 @@ const Index = () => {
         </Container>
       </Box>
 
-      {/* Instagram Feed Section */}
+      {}
+      <Box py={20}>
+        <Container maxW="container.lg">
+          <Heading as="h2" size="2xl" textAlign="center" mb={10}>
+            Vintage-Inspired Collection
+          </Heading>
+          <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+            <GridItem>
+              <Image src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwbmVja2xhY2V8ZW58MHx8fHwxNjgxMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Vintage Necklace" />
+              <Text fontSize="xl" fontWeight="bold" mt={4}>
+                Vintage-Inspired Necklaces
+              </Text>
+            </GridItem>
+            <GridItem>
+              <Image src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwZWFycmluZ3N8ZW58MHx8fHwxNjgxMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Vintage Earrings" />
+              <Text fontSize="xl" fontWeight="bold" mt={4}>
+                Vintage-Inspired Earrings
+              </Text>
+            </GridItem>
+            <GridItem>
+              <Image src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwYnJhY2VsZXR8ZW58MHx8fHwxNjgxMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Vintage Bracelet" />
+              <Text fontSize="xl" fontWeight="bold" mt={4}>
+                Vintage-Inspired Bracelets
+              </Text>
+            </GridItem>
+          </Grid>
+        </Container>
+      </Box>
+
+      {}
+      <Box bg="black" py={20} color="white">
+        <Container maxW="container.lg">
+          <Flex alignItems="center">
+            <Box flex={1} mr={10}>
+              <Heading as="h2" size="2xl" mb={4}>
+                Inspired by the Rhythm of Jazz
+              </Heading>
+              <Text fontSize="lg" mb={6}>
+                Jazz music has been a significant influence on our jewelry designs. The improvisational nature, the bold expressions, and the timeless appeal of jazz are reflected in each piece we create. Experience the perfect harmony of music and craftsmanship with Jazz Ville.
+              </Text>
+            </Box>
+            <Box flex={1}>
+              <Image src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxqYXp6JTIwbXVzaWN8ZW58MHx8fHwxNjgxMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Jazz Influence" />
+            </Box>
+          </Flex>
+        </Container>
+      </Box>
+
+      {}
       <Box py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" textAlign="center" mb={10}>
@@ -87,7 +135,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box bg="gray.900" py={10} color="white">
+      <Box bg="black" py={10} color="white">
         <Container maxW="container.lg">
           <Stack direction={["column", "row"]} spacing={8}>
             <Box>
